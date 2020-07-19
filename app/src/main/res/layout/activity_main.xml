@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".ui.main.MainActivity">
 
+    <fragment
+        android:id="@+id/behavior_fragment"
+        android:name="com.marty.behaviortracker.ui.behavior.BehaviorFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
