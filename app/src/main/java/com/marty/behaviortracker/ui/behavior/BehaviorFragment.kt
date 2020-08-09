@@ -18,7 +18,7 @@ data class BehaviorState(val behavior: Async<Behavior> = Uninitialized) : MvRxSt
 class BehaviorFragment : Fragment() {
 
     private var behaviorCount = 0
-
+    //test
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
